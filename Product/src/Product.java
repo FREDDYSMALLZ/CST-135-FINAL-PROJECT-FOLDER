@@ -1,22 +1,37 @@
+import java.util.ArrayList;
+import java.util.Scanner;
 import java.util.Date;
 
 	public  class Product {
 		
+		Product product = new Product();
+	
 		public static void main(String[] args) {
-			//Programing design for a product that can be found in a vending machine
-			
-			
+		
 			String productName  ;
-			 double weightOfProduct ;
-			 double caloriesOfProduct;
-			 java.util.Date productDate;
-			 int quantityOfProduct;
-			 
-			  Product product = new Product();
+			double weightOfProduct ;
+			double caloriesOfProduct;
+			java.util.Date productDate;
+			int quantityOfProduct;
 				  
 			  }
 		
+		private double productPrice;
+		
+		public double getProductPrice() {
+			return productPrice;
+		}
+		public void setProductPrice(double productPrice) {
+			this.productPrice = productPrice;
+		}
+		private String productChoice;
 			 
+		public String getProductChoice() {
+			return productChoice;
+		}
+		public void setProductChoice(String productChoice) {
+			this.productChoice = productChoice;
+		}
 		private double weightOfProuct;
 		public double getWeightOfProduct(double weightOfProduct) {
 			return weightOfProduct;
@@ -54,6 +69,8 @@ import java.util.Date;
 			this.productName = productName;
 		}
 	}
+	
+	
 
 	
 
